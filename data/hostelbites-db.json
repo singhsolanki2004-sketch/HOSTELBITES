@@ -1,0 +1,654 @@
+{
+  "students": [
+    {
+      "id": "stu-1",
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@student.ajmer.edu",
+      "mobile": "9829041122",
+      "password": "demo123",
+      "college": "Government Engineering College, Ajmer",
+      "hostelName": "Vikramaditya Boys Hostel (Block B)",
+      "dropOffGate": "Main Campus North Gate · Guard Cabin",
+      "age": 19,
+      "createdAt": "2026-11-01T17:45:28.890Z"
+    },
+    {
+      "id": "stu-2",
+      "name": "Ananya Rathore",
+      "email": "ananya.r@mdsajmer.ac.in",
+      "mobile": "9829154321",
+      "password": "demo123",
+      "college": "MDS University, Ajmer",
+      "hostelName": "Gargi Girls Hostel",
+      "dropOffGate": "Gargi Hostel Entry Gate · Reception Desk",
+      "age": 20,
+      "createdAt": "2026-11-05T17:45:28.890Z"
+    },
+    {
+      "id": "stu-3",
+      "name": "Rohan Joshi",
+      "email": "rohan.joshi@bhagwant.edu",
+      "mobile": "9784512390",
+      "password": "demo123",
+      "college": "Bhagwant University, Ajmer",
+      "hostelName": "Vaishali Nagar Student PG",
+      "dropOffGate": "Vaishali Nagar Lane 3 · Main Gate",
+      "age": 21,
+      "createdAt": "2026-11-10T17:45:28.890Z"
+    },
+    {
+      "id": "stu-4",
+      "name": "Priya Meena",
+      "email": "priya.meena@curaj.ac.in",
+      "mobile": "9649087123",
+      "password": "demo123",
+      "college": "Central University Corridor, Ajmer",
+      "hostelName": "Shastri Nagar Residency PG",
+      "dropOffGate": "Shastri Nagar Main Porch Gate",
+      "age": 18,
+      "createdAt": "2026-11-14T17:45:28.890Z"
+    }
+  ],
+  "chefs": [
+    {
+      "id": "chef-1",
+      "name": "Sunita Sharma",
+      "email": "sunita.kitchen@hostelbites.in",
+      "mobile": "9414056789",
+      "password": "demo123",
+      "kitchenName": "Maa Annapurna Home Kitchen",
+      "locality": "Vaishali Nagar",
+      "city": "Ajmer, Rajasthan",
+      "bio": "Cooking wholesome, low-oil Rajasthani and North Indian family meals for over 18 years. Every batch uses fresh chakki atta, RO water, and hand-ground spices.",
+      "specialty": "Everyday Ghar Ka Khana, Dal-Sabzi & Balanced Thalis",
+      "fssaiNumber": "22226014000842",
+      "fssaiCertificateNote": "FSSAI Basic Registration · Valid through Dec 2027",
+      "hygieneNotes": "RO filtered cooking water, stainless-steel food-grade prep surfaces, hairnet & apron protocol, daily kitchen audit passed.",
+      "avatarUrl": "/src/assets/images/chef_sunita_portrait_1795109856731.jpg",
+      "verificationStatus": "verified",
+      "rating": 4.8,
+      "reviewCount": 3,
+      "createdAt": "2026-10-20T17:45:28.890Z"
+    },
+    {
+      "id": "chef-2",
+      "name": "Rajesh Rathore",
+      "email": "rajesh.rasoi@hostelbites.in",
+      "mobile": "9414188234",
+      "password": "demo123",
+      "kitchenName": "Shastri Nagar Ghar Rasoi",
+      "locality": "Shastri Nagar",
+      "city": "Ajmer, Rajasthan",
+      "bio": "Former hospitality cook now preparing comforting home-style Rajma Chawal, Chole, and crisp stuffed parathas for hostel students near Ajmer colleges.",
+      "specialty": "Rajma Chawal, Chole Rice & Tawa Parathas",
+      "fssaiNumber": "22226014001109",
+      "fssaiCertificateNote": "FSSAI Registration · Valid through Aug 2027",
+      "hygieneNotes": "Separate vegetarian prep station, sealed leak-proof food containers, temperature-checked dispatch boxes.",
+      "avatarUrl": "/src/assets/images/chef_rajesh_portrait_1795109857226.jpg",
+      "verificationStatus": "verified",
+      "rating": 4.7,
+      "reviewCount": 2,
+      "createdAt": "2026-10-25T17:45:28.890Z"
+    },
+    {
+      "id": "chef-3",
+      "name": "Meena Verma",
+      "email": "meena.tiffin@hostelbites.in",
+      "mobile": "9828911204",
+      "password": "demo123",
+      "kitchenName": "Panchsheel Homestyle Tiffin",
+      "locality": "Panchsheel Nagar",
+      "city": "Ajmer, Rajasthan",
+      "bio": "Home cook offering homestyle protein-rich curries and evening meals for university students around Panchsheel and Makarwali Road.",
+      "specialty": "Homestyle Egg Curry & Evening Rice Bowls",
+      "fssaiNumber": "22226014001955",
+      "fssaiCertificateNote": "Submitted FSSAI Form A · Awaiting Admin Kitchen Inspection",
+      "hygieneNotes": "Inspection scheduled by Ajmer Operations Lead.",
+      "avatarUrl": "/src/assets/images/chef_sunita_portrait_1795109856731.jpg",
+      "verificationStatus": "pending",
+      "rating": 4.4,
+      "reviewCount": 0,
+      "createdAt": "2026-11-17T17:45:28.890Z"
+    }
+  ],
+  "meals": [
+    {
+      "id": "meal-1",
+      "chefId": "chef-1",
+      "name": "Dal, Rice and Seasonal Sabzi",
+      "description": "Comforting yellow toor dal tempered with desi ghee & jeera, steamed basmati rice, seasonal aloo-gobhi sabzi, and 3 soft tawa rotis.",
+      "ingredients": [
+        "Toor Dal",
+        "Aged Basmati Rice",
+        "Cauliflower & Potato",
+        "Whole Wheat Chakki Atta",
+        "Pure Cow Ghee",
+        "Fresh Coriander"
+      ],
+      "prepDetails": "Prepared fresh 45 mins prior to hostel gate dispatch in small batches with minimal oil.",
+      "price": 80,
+      "isTodaysSpecial": true,
+      "dietary": "Veg",
+      "availableQty": 24,
+      "isAvailable": true,
+      "timeSlots": [
+        "Lunch · 12:30 PM – 1:15 PM",
+        "Dinner · 7:30 PM – 8:15 PM",
+        "Late Dinner · 8:30 PM – 9:15 PM"
+      ],
+      "imageUrl": "/src/assets/images/meal_dal_sabzi_rice_1795109856817.jpg",
+      "rating": 4.9,
+      "reviewCount": 2,
+      "createdAt": "2026-10-30T17:45:28.890Z"
+    },
+    {
+      "id": "meal-2",
+      "chefId": "chef-1",
+      "name": "Roti, Paneer Sabzi and Salad",
+      "description": "Homestyle creamy matar paneer cooked without heavy restaurant cream, paired with 4 soft whole-wheat phulkas and crisp cucumber-tomato salad.",
+      "ingredients": [
+        "Fresh Homemade Paneer",
+        "Green Peas",
+        "Whole Wheat Phulkas",
+        "Tomato Onion Gravy",
+        "Cucumber & Lemon Salad"
+      ],
+      "prepDetails": "Low-spice home recipe with freshly made paneer cubes and zero artificial food coloring.",
+      "price": 80,
+      "dietary": "Veg",
+      "availableQty": 18,
+      "isAvailable": true,
+      "timeSlots": [
+        "Dinner · 7:30 PM – 8:15 PM",
+        "Late Dinner · 8:30 PM – 9:15 PM"
+      ],
+      "imageUrl": "/src/assets/images/meal_paneer_roti_salad_1795109857621.jpg",
+      "rating": 4.8,
+      "reviewCount": 1,
+      "createdAt": "2026-11-01T17:45:28.890Z"
+    },
+    {
+      "id": "meal-3",
+      "chefId": "chef-2",
+      "name": "Rajma Chawal",
+      "description": "Slow-simmered Jammu red kidney beans in rich tomato-ginger gravy over fluffy basmati rice with mint chutney and onion rings.",
+      "ingredients": [
+        "Red Kidney Beans",
+        "Basmati Rice",
+        "Ginger & Garlic",
+        "Fresh Mint Chutney",
+        "Red Onion Rings"
+      ],
+      "prepDetails": "Soaked overnight and pressure-cooked slow for authentic home taste and easy digestion.",
+      "price": 80,
+      "dietary": "Veg",
+      "availableQty": 20,
+      "isAvailable": true,
+      "timeSlots": [
+        "Lunch · 12:30 PM – 1:15 PM",
+        "Dinner · 7:30 PM – 8:15 PM"
+      ],
+      "imageUrl": "/src/assets/images/meal_rajma_chawal_1795109856726.jpg",
+      "rating": 4.8,
+      "reviewCount": 1,
+      "createdAt": "2026-11-03T17:45:28.890Z"
+    },
+    {
+      "id": "meal-4",
+      "chefId": "chef-2",
+      "name": "Chole Rice",
+      "description": "Tangy North Indian kabuli chana masala with aromatic jeera rice, lemon wedge, and homestyle spiced onion salad.",
+      "ingredients": [
+        "Kabuli Chana",
+        "Cumin Jeera Rice",
+        "Anardana & Whole Spices",
+        "Pickled Onions",
+        "Fresh Lemon"
+      ],
+      "prepDetails": "Cooked in cold-pressed mustard oil with balanced homely masalas.",
+      "price": 80,
+      "dietary": "Veg",
+      "availableQty": 15,
+      "isAvailable": true,
+      "timeSlots": [
+        "Lunch · 12:30 PM – 1:15 PM",
+        "Dinner · 7:30 PM – 8:15 PM"
+      ],
+      "imageUrl": "/src/assets/images/meal_chole_rice_1795109856912.jpg",
+      "rating": 4.6,
+      "reviewCount": 1,
+      "createdAt": "2026-11-04T17:45:28.890Z"
+    },
+    {
+      "id": "meal-5",
+      "chefId": "chef-2",
+      "name": "Aloo Paratha with Curd",
+      "description": "Two generously stuffed golden tawa aloo parathas topped with a light pat of white butter, served with fresh dahi and mango pickle.",
+      "ingredients": [
+        "Whole Wheat Dough",
+        "Spiced Mashed Potatoes",
+        "Fresh Homemade Curd",
+        "Aam Ka Achar",
+        "Green Chilli & Coriander"
+      ],
+      "prepDetails": "Rolled and griddled right before your slot so parathas stay warm till the hostel gate.",
+      "price": 80,
+      "dietary": "Veg",
+      "availableQty": 16,
+      "isAvailable": true,
+      "timeSlots": [
+        "Lunch · 12:30 PM – 1:15 PM",
+        "Dinner · 7:30 PM – 8:15 PM",
+        "Late Dinner · 8:30 PM – 9:15 PM"
+      ],
+      "imageUrl": "/src/assets/images/meal_aloo_paratha_curd_1795109857813.jpg",
+      "rating": 4.9,
+      "reviewCount": 0,
+      "createdAt": "2026-11-07T17:45:28.890Z"
+    },
+    {
+      "id": "meal-6",
+      "chefId": "chef-1",
+      "name": "Veg Thali",
+      "description": "Complete balanced student thali: yellow dal tadka, paneer sabzi, seasonal dry veg, 3 rotis, jeera rice, boondi raita, salad, and 1 gulab jamun.",
+      "ingredients": [
+        "Yellow Dal",
+        "Paneer Sabzi",
+        "3 Tawa Rotis",
+        "Jeera Rice",
+        "Boondi Raita",
+        "Kachumber Salad"
+      ],
+      "prepDetails": "Packed in a compartmentalized spill-proof meal box for clean hostel room dining.",
+      "price": 80,
+      "dietary": "Veg",
+      "availableQty": 14,
+      "isAvailable": true,
+      "timeSlots": [
+        "Lunch · 12:30 PM – 1:15 PM",
+        "Dinner · 7:30 PM – 8:15 PM"
+      ],
+      "imageUrl": "/src/assets/images/hero_indian_thali_1795109857194.jpg",
+      "rating": 4.9,
+      "reviewCount": 0,
+      "createdAt": "2026-11-09T17:45:28.890Z"
+    },
+    {
+      "id": "meal-7",
+      "chefId": "chef-1",
+      "name": "Dal Tadka with Jeera Rice",
+      "description": "Aromatic roasted garlic & cumin tempered yellow dal served with steaming jeera rice and crisp roasted urad papad.",
+      "ingredients": [
+        "Moong & Toor Dal",
+        "Roasted Garlic Tadka",
+        "Jeera Basmati Rice",
+        "Roasted Papad"
+      ],
+      "prepDetails": "Light, easy on the stomach, and ideal after late evening college classes.",
+      "price": 80,
+      "dietary": "Veg",
+      "availableQty": 22,
+      "isAvailable": true,
+      "timeSlots": [
+        "Dinner · 7:30 PM – 8:15 PM",
+        "Late Dinner · 8:30 PM – 9:15 PM"
+      ],
+      "imageUrl": "/src/assets/images/meal_dal_tadka_jeera_1795109856729.jpg",
+      "rating": 4.7,
+      "reviewCount": 0,
+      "createdAt": "2026-11-10T17:45:28.890Z"
+    },
+    {
+      "id": "meal-8",
+      "chefId": "chef-1",
+      "name": "First-Time Trial Meal (Dal, Rice & 2 Rotis)",
+      "description": "Promotional ₹49 first-trial tiffin for Ajmer hostel students to experience Maa Annapurna Home Kitchen quality.",
+      "ingredients": [
+        "Yellow Dal Fry",
+        "Steamed Rice",
+        "2 Whole Wheat Rotis",
+        "Seasonal Pickle"
+      ],
+      "prepDetails": "Introductory trial portion packed in hygienic food-grade containers.",
+      "price": 49,
+      "isTrialOffer": true,
+      "dietary": "Veg",
+      "availableQty": 12,
+      "isAvailable": true,
+      "timeSlots": [
+        "Dinner · 7:30 PM – 8:15 PM"
+      ],
+      "imageUrl": "/src/assets/images/meal_dal_sabzi_rice_1795109856817.jpg",
+      "rating": 4.8,
+      "reviewCount": 0,
+      "createdAt": "2026-11-12T17:45:28.890Z"
+    },
+    {
+      "id": "meal-9",
+      "chefId": "chef-3",
+      "name": "Homestyle Egg Curry & Jeera Rice",
+      "description": "Two boiled farm eggs simmered in home-ground onion-tomato masala served with steamed jeera rice.",
+      "ingredients": [
+        "Farm Eggs",
+        "Jeera Basmati Rice",
+        "Onion Tomato Masala",
+        "Fresh Coriander"
+      ],
+      "prepDetails": "Prepared in separate non-veg cookware; chef kitchen inspection pending admin review.",
+      "price": 80,
+      "dietary": "Non-Veg",
+      "availableQty": 10,
+      "isAvailable": true,
+      "timeSlots": [
+        "Dinner · 7:30 PM – 8:15 PM"
+      ],
+      "imageUrl": "/src/assets/images/meal_dal_tadka_jeera_1795109856729.jpg",
+      "rating": 4.5,
+      "reviewCount": 0,
+      "createdAt": "2026-11-17T17:45:28.890Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "HB-2026-1041",
+      "studentId": "stu-1",
+      "studentName": "Aarav Sharma",
+      "mobile": "9829041122",
+      "college": "Government Engineering College, Ajmer",
+      "hostelName": "Vikramaditya Boys Hostel (Block B)",
+      "dropOffGate": "Main Campus North Gate · Guard Cabin",
+      "timeSlot": "Dinner · 7:30 PM – 8:15 PM",
+      "instructions": "Please keep dal less spicy.",
+      "paymentMethod": "UPI (Demo Prototype)",
+      "items": [
+        {
+          "mealId": "meal-1",
+          "mealName": "Dal, Rice and Seasonal Sabzi",
+          "chefId": "chef-1",
+          "chefName": "Sunita Sharma",
+          "price": 80,
+          "quantity": 1,
+          "imageUrl": "/src/assets/images/meal_dal_sabzi_rice_1795109856817.jpg"
+        }
+      ],
+      "subtotal": 80,
+      "deliveryFee": 0,
+      "totalAmount": 80,
+      "status": "Delivered / Collected",
+      "createdAt": "2026-11-16T17:45:28.890Z",
+      "updatedAt": "2026-11-16T17:45:28.890Z"
+    },
+    {
+      "id": "HB-2026-1042",
+      "studentId": "stu-1",
+      "studentName": "Aarav Sharma",
+      "mobile": "9829041122",
+      "college": "Government Engineering College, Ajmer",
+      "hostelName": "Vikramaditya Boys Hostel (Block B)",
+      "dropOffGate": "Main Campus North Gate · Guard Cabin",
+      "timeSlot": "Dinner · 7:30 PM – 8:15 PM",
+      "instructions": "Call on arrival at north gate.",
+      "paymentMethod": "Cash on Delivery / Pay at Collection",
+      "items": [
+        {
+          "mealId": "meal-3",
+          "mealName": "Rajma Chawal",
+          "chefId": "chef-2",
+          "chefName": "Rajesh Rathore",
+          "price": 80,
+          "quantity": 1,
+          "imageUrl": "/src/assets/images/meal_rajma_chawal_1795109856726.jpg"
+        }
+      ],
+      "subtotal": 80,
+      "deliveryFee": 0,
+      "totalAmount": 80,
+      "status": "Food Being Prepared",
+      "createdAt": "2026-11-19T17:45:28.890Z",
+      "updatedAt": "2026-11-19T17:45:28.890Z"
+    },
+    {
+      "id": "HB-2026-1043",
+      "studentId": "stu-2",
+      "studentName": "Ananya Rathore",
+      "mobile": "9829154321",
+      "college": "MDS University, Ajmer",
+      "hostelName": "Gargi Girls Hostel",
+      "dropOffGate": "Gargi Hostel Entry Gate · Reception Desk",
+      "timeSlot": "Dinner · 7:30 PM – 8:15 PM",
+      "instructions": "Extra onion salad if possible.",
+      "paymentMethod": "UPI (Demo Prototype)",
+      "items": [
+        {
+          "mealId": "meal-2",
+          "mealName": "Roti, Paneer Sabzi and Salad",
+          "chefId": "chef-1",
+          "chefName": "Sunita Sharma",
+          "price": 80,
+          "quantity": 1,
+          "imageUrl": "/src/assets/images/meal_paneer_roti_salad_1795109857621.jpg"
+        }
+      ],
+      "subtotal": 80,
+      "deliveryFee": 0,
+      "totalAmount": 80,
+      "status": "Delivered / Collected",
+      "createdAt": "2026-11-17T17:45:28.890Z",
+      "updatedAt": "2026-11-17T17:45:28.890Z"
+    },
+    {
+      "id": "HB-2026-1044",
+      "studentId": "stu-3",
+      "studentName": "Rohan Joshi",
+      "mobile": "9784512390",
+      "college": "Bhagwant University, Ajmer",
+      "hostelName": "Vaishali Nagar Student PG",
+      "dropOffGate": "Vaishali Nagar Lane 3 · Main Gate",
+      "timeSlot": "Lunch · 12:30 PM – 1:15 PM",
+      "instructions": "Leave at PG main gate table.",
+      "paymentMethod": "UPI (Demo Prototype)",
+      "items": [
+        {
+          "mealId": "meal-4",
+          "mealName": "Chole Rice",
+          "chefId": "chef-2",
+          "chefName": "Rajesh Rathore",
+          "price": 80,
+          "quantity": 2,
+          "imageUrl": "/src/assets/images/meal_chole_rice_1795109856912.jpg"
+        }
+      ],
+      "subtotal": 160,
+      "deliveryFee": 0,
+      "totalAmount": 160,
+      "status": "Order Placed",
+      "createdAt": "2026-11-19T17:45:28.890Z",
+      "updatedAt": "2026-11-19T17:45:28.890Z"
+    },
+    {
+      "id": "HB-2026-1045",
+      "studentId": "stu-4",
+      "studentName": "Priya Meena",
+      "mobile": "9649087123",
+      "college": "Central University Corridor, Ajmer",
+      "hostelName": "Shastri Nagar Residency PG",
+      "dropOffGate": "Shastri Nagar Main Porch Gate",
+      "timeSlot": "Dinner · 7:30 PM – 8:15 PM",
+      "instructions": "First trial meal!",
+      "paymentMethod": "Demo Prototype Payment",
+      "items": [
+        {
+          "mealId": "meal-8",
+          "mealName": "First-Time Trial Meal (Dal, Rice & 2 Rotis)",
+          "chefId": "chef-1",
+          "chefName": "Sunita Sharma",
+          "price": 49,
+          "quantity": 1,
+          "imageUrl": "/src/assets/images/meal_dal_sabzi_rice_1795109856817.jpg"
+        }
+      ],
+      "subtotal": 49,
+      "deliveryFee": 0,
+      "totalAmount": 49,
+      "status": "Delivered / Collected",
+      "createdAt": "2026-11-18T17:45:28.890Z",
+      "updatedAt": "2026-11-18T17:45:28.890Z"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "SUB-2026-301",
+      "studentId": "stu-1",
+      "studentName": "Aarav Sharma",
+      "hostelName": "Vikramaditya Boys Hostel (Block B)",
+      "planName": "Weekly Student Meal Plan (MVP Pilot)",
+      "price": 500,
+      "totalMeals": 7,
+      "remainingMeals": 4,
+      "scheduleSummary": "7 Dinner Meals / Week · Mon–Sun · 7:30 PM Gate Drop-off",
+      "status": "active",
+      "startDate": "2026-11-16T17:45:28.890Z",
+      "expiryDate": "2026-11-23T17:45:28.890Z",
+      "paymentMethod": "UPI (Demo Prototype)",
+      "createdAt": "2026-11-16T17:45:28.890Z"
+    },
+    {
+      "id": "SUB-2026-302",
+      "studentId": "stu-2",
+      "studentName": "Ananya Rathore",
+      "hostelName": "Gargi Girls Hostel",
+      "planName": "Weekly Student Meal Plan (MVP Pilot)",
+      "price": 500,
+      "totalMeals": 7,
+      "remainingMeals": 2,
+      "scheduleSummary": "7 Dinner Meals / Week · Mon–Sun · 7:30 PM Gate Drop-off",
+      "status": "active",
+      "startDate": "2026-11-14T17:45:28.890Z",
+      "expiryDate": "2026-11-21T17:45:28.890Z",
+      "paymentMethod": "UPI (Demo Prototype)",
+      "createdAt": "2026-11-14T17:45:28.890Z"
+    },
+    {
+      "id": "SUB-2026-303",
+      "studentId": "stu-3",
+      "studentName": "Rohan Joshi",
+      "hostelName": "Vaishali Nagar Student PG",
+      "planName": "Weekly Student Meal Plan (MVP Pilot)",
+      "price": 500,
+      "totalMeals": 7,
+      "remainingMeals": 0,
+      "scheduleSummary": "7 Dinner Meals / Week · Mon–Sun · 7:30 PM Gate Drop-off",
+      "status": "expired",
+      "startDate": "2026-11-07T17:45:28.890Z",
+      "expiryDate": "2026-11-14T17:45:28.890Z",
+      "paymentMethod": "Cash on Delivery / Pay at Collection",
+      "createdAt": "2026-11-07T17:45:28.890Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "orderId": "HB-2026-1041",
+      "mealId": "meal-1",
+      "mealName": "Dal, Rice and Seasonal Sabzi",
+      "chefId": "chef-1",
+      "studentId": "stu-1",
+      "studentName": "Aarav Sharma",
+      "hostelName": "Vikramaditya Boys Hostel",
+      "tasteRating": 5,
+      "qualityRating": 5,
+      "portionRating": 5,
+      "packagingRating": 5,
+      "punctualityRating": 5,
+      "overallRating": 5,
+      "comment": "After 4 months of oily hostel mess dal, this felt exactly like home. Reached the North Gate right at 7:35 PM without any extra fee.",
+      "isVisible": true,
+      "createdAt": "2026-11-16T17:45:28.890Z"
+    },
+    {
+      "id": "rev-2",
+      "orderId": "HB-2026-1043",
+      "mealId": "meal-2",
+      "mealName": "Roti, Paneer Sabzi and Salad",
+      "chefId": "chef-1",
+      "studentId": "stu-2",
+      "studentName": "Ananya Rathore",
+      "hostelName": "Gargi Girls Hostel",
+      "tasteRating": 5,
+      "qualityRating": 5,
+      "portionRating": 4,
+      "packagingRating": 5,
+      "punctualityRating": 5,
+      "overallRating": 4.8,
+      "comment": "Soft phulkas and fresh paneer with zero restaurant grease. At ₹80 with zero delivery charges, my monthly food budget stays under control.",
+      "isVisible": true,
+      "createdAt": "2026-11-17T17:45:28.890Z"
+    },
+    {
+      "id": "rev-3",
+      "orderId": "HB-2026-1045",
+      "mealId": "meal-1",
+      "mealName": "Dal, Rice and Seasonal Sabzi",
+      "chefId": "chef-1",
+      "studentId": "stu-4",
+      "studentName": "Priya Meena",
+      "hostelName": "Shastri Nagar Residency PG",
+      "tasteRating": 5,
+      "qualityRating": 5,
+      "portionRating": 5,
+      "packagingRating": 4,
+      "punctualityRating": 5,
+      "overallRating": 4.8,
+      "comment": "Clean foil-sealed boxes, zero spills, and genuinely comforting home flavours.",
+      "isVisible": true,
+      "createdAt": "2026-11-18T17:45:28.890Z"
+    },
+    {
+      "id": "rev-4",
+      "orderId": "HB-2026-1044",
+      "mealId": "meal-3",
+      "mealName": "Rajma Chawal",
+      "chefId": "chef-2",
+      "studentId": "stu-3",
+      "studentName": "Rohan Joshi",
+      "hostelName": "Vaishali Nagar Student PG",
+      "tasteRating": 5,
+      "qualityRating": 5,
+      "portionRating": 5,
+      "packagingRating": 4,
+      "punctualityRating": 5,
+      "overallRating": 4.8,
+      "comment": "Generous portion for ₹80! Mint chutney made it taste like Sunday lunch at home.",
+      "isVisible": true,
+      "createdAt": "2026-11-15T17:45:28.890Z"
+    },
+    {
+      "id": "rev-5",
+      "orderId": "HB-2026-1044",
+      "mealId": "meal-4",
+      "mealName": "Chole Rice",
+      "chefId": "chef-2",
+      "studentId": "stu-2",
+      "studentName": "Ananya Rathore",
+      "hostelName": "Gargi Girls Hostel",
+      "tasteRating": 5,
+      "qualityRating": 5,
+      "portionRating": 4,
+      "packagingRating": 5,
+      "punctualityRating": 4,
+      "overallRating": 4.6,
+      "comment": "Very flavourful chole and aromatic jeera rice. Much healthier than campus canteen noodles.",
+      "isVisible": true,
+      "createdAt": "2026-11-14T17:45:28.890Z"
+    }
+  ],
+  "planConfig": {
+    "weeklyPlanName": "Weekly Student Meal Plan",
+    "weeklyPrice": 500,
+    "weeklyMealsCount": 7,
+    "weeklyScheduleLabel": "7 Dinner Meals / Week · Mon–Sun · 7:30 PM Hostel Gate Drop-off",
+    "hypothesisNote": "MVP Validation Hypothesis: Testing student willingness to pay ₹500/week upfront for scheduled homemade meals vs. ₹80 daily ordering. Meal count & schedule are admin-configurable.",
+    "standardMealPrice": 80,
+    "trialMealPrice": 49
+  }
+}

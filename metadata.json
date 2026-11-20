@@ -1,0 +1,6 @@
+{
+  "name": "HostelBites",
+  "description": "Ghar Jaisa Khana, Hostel Ke Paas! Fresh, hygienic, and affordable homemade meals delivered to college hostels in Ajmer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
